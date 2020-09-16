@@ -2,15 +2,9 @@
 
 ## The Great Circle Distance using Haversine Formula
 
-##### Method 1
+#### Method 1
 
-function haversineGreatCircleDistance(
-$latitudeFrom,
-    $longitudeFrom,
-$latitudeTo,
-    $longitudeTo,
-$earthRadius = 6371
-) {
+function haversineGreatCircleDistance($latitudeFrom, $longitudeFrom, $latitudeTo, $longitudeTo,$earthRadius = 6371) {
     // convert from degrees to radians
     $latFrom = deg2rad($latitudeFrom);
     $lonFrom = deg2rad($longitudeFrom);
@@ -27,7 +21,7 @@ $earthRadius = 6371
 
 }
 
-##### Method 2
+#### Method 2
 
 function getDistance($latitude1, $longitude1, $latitude2, $longitude2)
 {
