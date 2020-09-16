@@ -1,8 +1,8 @@
-#### Calculating Distance Between Two coordinates
+# Calculating Distance Between Two coordinates
 
-##### The Great Circle Distance using Haversine Formula
+## The Great Circle Distance using Haversine Formula
 
-## Method 1
+##### Method 1
 
 function haversineGreatCircleDistance(
 $latitudeFrom,
@@ -27,7 +27,7 @@ $earthRadius = 6371
 
 }
 
-## Method 2
+##### Method 2
 
 function getDistance($latitude1, $longitude1, $latitude2, $longitude2)
 {
