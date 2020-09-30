@@ -38,6 +38,6 @@ function getDistance($latitude1, $longitude1, $latitude2, $longitude2)
 
 }
 
-### Install Laravel On Digital Ocean
+## Install Laravel On Digital Ocean - LAMP using git
 
-https://www.howtoforge.com/tutorial/install-laravel-on-ubuntu-for-apache/
+https://webdevmatics.com/blog/deploy-laravel-with-digital-ocean
