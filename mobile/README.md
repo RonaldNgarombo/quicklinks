@@ -1,5 +1,11 @@
 # The Are Links and Solutions to Problems i faced and solved in React Native
 
+### Find IMEI of any device
+
+Code ==> #06#
+website ==> imei.info
+https://www.getdroidtips.com/download-miracle-box-setup-tool/
+
 ### Creating a Certificate Fingerprint SHA-1, SHA-256
 
 keytool -list -v -keystore PATH_TO_YOUR_KEYSTORE.keystore -alias
