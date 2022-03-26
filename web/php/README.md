@@ -1,8 +1,12 @@
-#Linking a php version via the terminal
+# Linking a php version via the terminal
 echo 'export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"' >> ~/.zshrc
 
 Note: php@7.4 is the version which changes depending
+
+# For compilers to find php@7.4 you may need to set:
+export LDFLAGS="-L/opt/homebrew/opt/php@7.4/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/php@7.4/include"
 
 # Calculating Distance Between Two coordinates
 
