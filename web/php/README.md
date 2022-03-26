@@ -3,6 +3,7 @@ echo 'export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"' >> ~/.zshrc
 ###
 echo 'export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"' >> ~/.zshrc
 
+### These commands can be found in .zshrc file. In terminal cd, then ls -a
 Note: php@7.4 is the version which changes depending
 
 # For compilers to find php@7.4 you may need to set:
