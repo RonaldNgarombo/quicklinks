@@ -1,3 +1,9 @@
+#Linking a php version via the terminal
+echo 'export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"' >> ~/.zshrc
+
+Note: php@7.4 is the version which changes depending
+
 # Calculating Distance Between Two coordinates
 
 ## The Great Circle Distance using Haversine Formula
