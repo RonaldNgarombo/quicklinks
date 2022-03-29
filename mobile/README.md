@@ -1,5 +1,8 @@
 # The Are Links and Solutions to Problems i faced and solved in React Native
 
+## Deep Linking In React Native
+https://blog.jscrambler.com/how-to-handle-deep-linking-in-a-react-native-app/
+
 ### Find IMEI of any device
 
 Code ==> #06#
