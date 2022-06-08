@@ -1,3 +1,7 @@
+## Disable default Mac OS apache
+sudo apachectl stop
+
+
 # Linking a php version via the terminal
 echo 'export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"' >> ~/.zshrc
 ###
